@@ -15,3 +15,8 @@ should happen automatically from the .ruby-version file)
 
 ### Launch the app
 1. Run `bundle exec foreman start` to launch the app.
+
+## Notes
+
+Because this app was cloned from Edward O'Connor's original repository, the repo name is 
+`criticalmasscansuckit.com` -- even though the website is really `criticalmasscansuckitdotcomcansuckit.com.`
