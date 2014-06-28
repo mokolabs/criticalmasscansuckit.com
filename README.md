@@ -11,7 +11,7 @@
 ### Configure and bundle install
 1. Add Heroku remote: `heroku git:remote -a criticalmasscansuckit`
 2. Switch to Ruby 2.1.2 with the Ruby version manager of your choice (this
-should happen automatically from the .ruby-version file)
+should happen automatically from the `.ruby-version` file)
 3. `bundle install`
 
 ### Launch the app
