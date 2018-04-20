@@ -1,0 +1,32 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title CriticalMassCanSuckIt.com Can Suck It
+    %link{:href => "style.css", :rel => "stylesheet"}
+    %link{:href => "iphone.css", :media => "only screen and (max-device-width: 480px)", :rel => "stylesheet"}
+  %body
+    %h1
+      %a{:href => "http://criticalmasscansuckit.com"}
+        %span#critical-mass Criticalmass
+        %span#can-suck-it cansuckit.com
+      %span#can-suck-it can suck it
+    %p#chill
+      = link_to "It's", "http://vimeo.com/11003628"
+      = link_to "just", "http://vimeo.com/6014063"
+      = link_to "a", "http://vimeo.com/4001638"
+      = link_to "bike", "http://vimeo.com/17234501"
+      #{link_to "parade", "http://vimeo.com/17337792"},
+      #{link_to "people", "http://vimeo.com/17219581"}.
+      = link_to "Chill", "http://vimeo.com/17203607"
+      #{link_to "out", "http://vimeo.com/17356289"}.
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-421670-7']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

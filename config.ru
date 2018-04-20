@@ -1,7 +1,7 @@
-# GEMS
+# DEPENDENCIES
 require 'rubygems'
 require 'sinatra'
-
-# APP
+require 'haml'
 require './suckit'
+
 run Sinatra::Application
