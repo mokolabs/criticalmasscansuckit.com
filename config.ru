@@ -1,4 +1,4 @@
-# DEPENDENCIES
+# Load dependencies
 require 'rubygems'
 require 'sinatra'
 require 'haml'
