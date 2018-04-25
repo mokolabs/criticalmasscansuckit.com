@@ -2,6 +2,6 @@
 require 'rubygems'
 require 'sinatra'
 require 'haml'
-require './suckit'
+require './app'
 
 run Sinatra::Application
